@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+</head>
+<body align="left" bgcolor="yellow">
+    
+    <form action="firstproject.html">
+        <legend align="center"><h1><i style="color: blue;"><u>Student Details Form</u></i></h1></legend>
+        <table align="center" cellpadding = "15" border="0" style="border-collapse: collapse;background-color: rgb(245, 180, 216);">
+            <tr>
+                <td><label for="">First Name<super style="color: red;">*</super></label></td>
+                <td>:<input type="text" name="fname" id="" maxlength="30" placeholder="e.g.roshan" required></td>
+            </tr>
+            <tr>
+                <td>Last Name<super style="color: red;">*</super> </td>
+                <td>:<input type="text" name="lname" id="" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Father Name<super style="color: red;">*</super> </label></td>
+                <td>:<input type="text" name="faname" id="" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Mother Name<super style="color: red;">*</super> </label></td>
+                <td>:<input type="text" name="mname" id="" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td><label for="">Date of Birth<super style="color: red;">*</super> </label></td>
+                <td>:<input type="date" name="dob" id="" required ></td>
+            </tr>
+            <tr>
+                <td><label for="">Mobile Number<super style="color: red;">*</super> </label></td>
+                <td>:<input type="number" name="phone" id="" maxlength="10" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Email ID<super style="color: red;">*</super> </label></td>
+                <td>:<input type="email" name="" id="" placeholder="e.g. abc@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Address</label></td>
+                <td><textarea name="feed" id="" cols="25" rows="4" placeholder="Your Address here" style="resize: none;"></textarea></td>
+
+            </tr>
+            <tr>
+                <td>Pin code<super style="color: red;">*</super></td>
+                <td>:<input type="number" name="pin" id="" maxlength="6" placeholder="123456" required></td>
+            </tr>
+            <tr>
+                <td><label for="">State</label></td>
+                <td>:<select name="" id="" required>
+                    <option value="" hidden>---choose--</option>
+                    <option value="">Andhra Pradesh</option>
+                    <option value="">Karnataka</option>
+                    <option value="">Tamilnadu</option>
+                    <option value="">Kerla</option>
+                    <option value="">Other</option>
+                   </select></td>
+            </tr>
+            <tr>
+                <td>Choose gender<super style="color: red;">*</super></td>
+                <td>:<input type="radio" name="gender" id="" required><label for="">Male</label>
+                <input type="radio" name="gender" id=""><label for="">Female</label>
+                <input type="radio" name="gender" id=""> <label for="">Others</label></td>         
+    
+            </tr>
+            <tr>
+                <td>Qualification<super style="color: red;">*</super></td>
+                <td>
+           :<select name="" id="" required>
+            <option value="" hidden>---choose--</option>
+            <option value="">B.Tech</option>
+            <option value="">Bsc</option>
+            <option value="">B.com</option>
+            <option value="">M.Tech</option>
+            <option value="">BA</option>
+            
+           
+           </select>
+    </td>
+    
+            </tr>
+            <tr>
+                <td>Stream<super style="color: red;">*</super></td>
+                <td>
+                    :<input type="radio" name="s" id="ECE" required><label for="ECE">ECE</label>
+                    <input type="radio" name="s" id="CSE"><label for="CSE">CSE</label>
+                    <input type="radio" name="s" id="EEE"><label for="EEE">EEE</label>
+                    <input type="radio" name="s" id="IT"><label for="IT">IT</label><br>
+                    <input type="radio" name="s" id="Mech"><label for="Mech">Mech</label>
+                    <input type="radio" name="s" id="Civil"><label for="Civil">Civil</label>
+             
+                </td>
+            </tr>
+            <tr>
+                <td>Year of passing<super style="color: red;">*</super></td>
+                <td>
+                    :<select name="" id="" required>
+                        <option value="" hidden>---choose--</option>
+                        <option value="">2021</option>
+                        <option value="">2022</option>
+                        <option value="">2023</option>
+    
+    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Percentage<super style="color: red;">*</super></td>
+                <td>:<input type="number" name="" id="" maxlength="2" required></td>
+            </tr>
+            <tr>
+                <td><p>Choose Your Skills</p></td>
+                <td>
+                    
+           :<input type="checkbox" name="" id="py"><label for="py">python</label>
+           <input type="checkbox" name="" id="c"><label for="c">c</label>
+           <input type="checkbox" name="" id="java"><label for="java">java</label>
+           <input type="checkbox" name="" id="sql"><label for="sql">sql</label>
+           <input type="checkbox" name="" id="web"><label for="web">web</label>
+           <br>
+           <input type="checkbox" name="" id="other"><label for="">other</label>
+    
+           <input type="text" name="" id="other" maxlength="30">
+                </td>
+            </tr>
+            <tr>
+                <td>Preferred Job Location<super style="color: red;">*</super></td>
+                <td>
+                    :<input type="checkbox" name="" id="" required><label for="">Bangalore</label>
+                    <input type="checkbox" name="" id=""><label for="">Channai</label>
+                    <input type="checkbox" name="" id=""><label for="">Hyderabad</label><br>
+                    <input type="checkbox" value=""><label for="">Pune</label>
+                    <input type="checkbox" name="" id=""><label for="">Abroad</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Languages known 
+                </td>
+                <td>
+                    :<input type="checkbox" name="" id="" ><label for="">English</label>
+                    <input type="checkbox" name="" id=""><label for="">Telugu</label>
+                    <input type="checkbox" name="" id=""><label for="">Hindi</label><br>
+                    <input type="checkbox" name="" id=""><label for="">Kanada</label>
+                    <input type="checkbox" name="" id=""><label for="">Tamil</label>
+                    <input type="checkbox" name="" id=""><label for="" onclick="t">Other</label><br> 
+                    <input type="text" name="" id="t" maxlength="10" hidden>
+                </td>
+            </tr>
+            <tr>
+                <td>Salary Expected</td>
+                <td>
+                    :<input type="radio" name="s" id="1"><label for="1">1.5LPA</label>
+                    <input type="radio" name="s" id="2"><label for="2">2LPA</label>
+                    <input type="radio" name="s" id="5"><label for="5">5LPA</label>
+                    <input type="radio" name="s" id="10"><label for="10">10LPA</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Write Your Comments :<br>
+                    <textarea name="feed" id="" cols="60" rows="5" placeholder="Your Feedback here" style="resize: none;"></textarea>
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" name="" id="" required> <label for="">Accept terms and conditions</label> <a href="">privacy policy.</a><super style="color: red;">*</super></td>
+               
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit" style="background-color: rgb(39, 236, 89);"></td><td><input type="reset" value="Reset" style="background-color: rgb(255, 71, 71);"></td>
+                
+            </tr>
+            
+        </table>
+    
+    </form>
+   
+</body>
+</html>
